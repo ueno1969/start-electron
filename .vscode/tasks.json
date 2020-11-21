@@ -1,0 +1,34 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build",
+			"dependsOn": [
+				"webpack"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "webpack",
+			"type": "npm",
+			"script": "webpack",
+			"problemMatcher": []
+		},
+		{
+			"label": "watch",
+			"type": "npm",
+			"script": "watch",
+			"problemMatcher": []
+		},
+		{
+			"label": "clean",
+			"type": "npm",
+			"script": "clean",
+			"problemMatcher": []
+		},
+	]
+}
