@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",
+    "module": "ES2015",
+    "allowJs": true,
+    "sourceMap": true,
+    "outDir": "./dist/",
+    "moduleResolution": "node",
+    "lib": ["DOM", "ES2015"],
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*"]
+    },
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+  },
+  "include": [
+    "src/**/*"
+  ],
+}
